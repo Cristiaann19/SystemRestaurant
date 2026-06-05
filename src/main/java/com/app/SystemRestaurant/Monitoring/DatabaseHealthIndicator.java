@@ -23,6 +23,4 @@ public class DatabaseHealthIndicator implements HealthIndicator {
             return Health.down().withDetail("database", "Caída").build();
         }
     }
-    //http://localhost:8080/actuator/health
 }
-
